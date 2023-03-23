@@ -8,7 +8,7 @@ sequentially filtered out if they are found to be divisible by the smallest
 number remaining in the sequence.
 
 In this agent-based implementation, every agent is responsible for filtering the
-sequence of integers, received from a ``parent agent'', according to its
+sequence of integers, received from a "parent agent", according to its
 filter parameter. The first time an agent receives an integer that is not
 divisible by its filter, it announces that the input integer is prime and
 creates its child agent to filter subsequent numbers by this new prime. When an
